@@ -183,3 +183,200 @@
     justify-content: center;
     z-index: 2;
 }
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    #body{
+       border: 2px solid black;
+       width: 100%;
+       height: 100%;
+       overflow: hidden;
+    }
+    .img{
+        height: 655px;
+        width: 100%;
+        overflow: hidden;
+        /* z-index: 0; */
+        position: absolute;
+        top: 100px;
+        
+    }
+    
+    .h1{
+        position: absolute;
+        top: 450px;
+        left: 30%;
+        z-index: 2;
+        display: flex;
+        
+    }
+    
+    
+    #nav{
+        border: 1px solid black;
+        background-color: #b7dbb8;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 100px;
+        width: 100%;
+        position: absolute;
+        
+        z-index: 3;
+        
+    }
+    #nav.sticky{
+        position: fixed;
+        border: 2px solid green;
+        background-color: #22523d;
+    
+        
+        transition: height 0.3s ease ;
+        height: 70px;
+      }
+    
+    #logo{
+        display: flex;
+        border: 2px solid green;
+        padding: 2px;
+        background-color: whitesmoke;
+        border-radius: 50%;
+        position: absolute;
+        top: -10px;
+        margin: 20px 50%;
+        z-index: 3;   
+    }
+    #im{
+        height: 70px;
+    }
+    
+    #u{    
+        display: flex;
+        gap: 16px;
+        margin-top: 22px;
+        margin-left: 10px;
+        list-style: none;
+        /* justify-items: center; */
+        
+    }
+    
+    
+    
+    #l2{
+        margin-right:50px;
+    }
+    #l3{
+        margin-left: 70px;
+    }
+    
+    .a{
+    
+        font-size: 10px;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+           
+    }
+    .a.font-color{
+        color: #b7dbb8;
+    }
+    
+    .title-1{
+        position: absolute;
+        z-index: 2;
+        top: 44px;
+        left: 15%;
+        border: 2px solid black;
+        color: #b7dbb8;
+        background: #22523d;;
+        list-style-position: inside;
+        padding: 10px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        background-clip: content-box;
+        width: 70%;
+    }
+    .title-2{
+        position: absolute;
+        z-index: 2;
+        top: 768px;
+        left: 15%;
+        border: 2px solid black;
+        color: #b7dbb8;
+        background: #22523d;;
+        list-style-position: inside;
+        padding: 10px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        background-clip: content-box;
+        width: 70%;
+    }
+    .title-3{
+        position: absolute;
+        z-index: 2;
+        top: 1563px;
+        left: 15%;
+        border: 2px solid black;
+        color: #b7dbb8;
+        background: #22523d; ;
+        list-style-position: inside;
+        padding: 10px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        background-clip: content-box;
+        width: 70%;
+    }
+    .title-h2{
+        padding: 30px;
+    }
+    .title-u1{
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hr1{
+        position: absolute;
+        z-index: 1;
+        top: 755px;
+        
+        border: 1px solid green;
+        
+        width: 100%;
+        color: green;
+    }
+    
+    #titles{
+        background-color: #b7dbb8;
+        position: absolute;
+        height: 2800px;
+        width: 100%;
+        top: 759px;
+    }
+    .pricetage{
+        border: 2px solid black;
+        border-radius: 15px;
+        color: #b7dbb8;
+        background: #22523d;;
+        width: 70%;
+        padding: 20px;
+        position: absolute;
+        top: 2438px;
+        left: 11%;
+        display: flex;
+        justify-content: center;
+        z-index: 2;
+    }
+    
+    
+}
+
